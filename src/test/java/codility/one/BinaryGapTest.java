@@ -2,6 +2,7 @@ package codility.one;
 
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.experimental.theories.suppliers.TestedOn;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -42,6 +43,11 @@ public class BinaryGapTest {
     @Test
     public void return2OnInput328() {
         assertThat(binaryGap.solution(328)).isEqualTo(2);
+    }
+
+    @Test
+    public  void return0OntInput16() {
+        assertThat(binaryGap.solution(16)).isEqualTo(0);
     }
 
 }

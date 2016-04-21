@@ -1,6 +1,5 @@
 package codility.six;
 
-import codility.five.Distinct;
 import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
